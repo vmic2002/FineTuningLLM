@@ -1,0 +1,7 @@
+fr_wiki_annotated_5000.json
+fr_wiki_articles_5000.json
+fr_wiki_test.json
+fr_wiki_train.json
+fr_wiki_validation.json
+pytorch_env/
+qwen2.5-0.5b-finetuned-final/
