@@ -2,6 +2,8 @@
 
 This project focuses on fine-tuning a small language model, Qwen2.5-0.5B-Instruct, for text summarization using a dataset of 5000 French Wikipedia articles. Initial summaries were generated with the larger Qwen2.5-14B-Instruct model, then used to fine-tune the 0.5B model via LoRA on limited resources (Google Colab free tier). The process showcases knowledge distillation from a large to a small model, improving summarization performance efficiently.
 
+Thanks to Yann Millet for the help on the project!
+
 ## Files
 
 - **`fr_wiki_articles_5000.json`**: Raw dataset of 5000 French Wikipedia articles, containing titles and full text, used as the input for summarization.
